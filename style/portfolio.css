@@ -8,19 +8,23 @@
 }
 
 /* Shared style */
-.text-primary{
+.text-primary {
     color: #fd6e0a;
 }
 
-.dark-1{
+.dark-1 {
     color: #181818;
 }
 
-.dark-2{
-    color: #474747 ;
+.dark-2 {
+    color: #474747;
 }
 
-.btn-primary{
+.dark-3 {
+    color: #757575;
+}
+
+.btn-primary {
     background-color: #fd6e0a;
     font-weight: bold;
     color: white;
@@ -30,6 +34,11 @@
     border: none;
 
 
+}
+
+.bg{
+   background-color: #FFF8F3;
+opacity: 1;
 }
 
 
@@ -44,59 +53,102 @@ nav {
 
 }
 
-.nav-title{
+.nav-title {
     font-weight: 800;
     font-size: 45px;
 
 }
 
-nav ul li{
+nav ul li {
     list-style: none;
     margin-right: 48px;
 }
+
 nav li a {
     text-decoration: none;
     font-size: 20px;
-    
+
 }
-nav ul{
+
+nav ul {
     display: flex;
     align-items: center;
 
 }
 
 /* Header */
-.header{
+.header {
     background-image: url("../images/developer.png"), url("../images/header_bg.png");
-    background-repeat: no-repeat ;
-    background-position:top left, bottom right ;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    background-color: #fff8f3;
 }
 
 /* Banner styles */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
-    margin:0 32px 0 230px ;
+    margin: 0 32px 0 230px;
 
 }
-.banner-content{
+
+.banner-content {
     max-width: 585px;
 
 }
 
-.banner-gret{
+.banner-gret {
     font-size: 42px;
     font-weight: 600;
 
 }
 
-.banner-title{
+.banner-title {
     font-size: 88px;
     font-weight: bold;
 
 }
 
-.banner-profile{
+.banner-profile {
     width: 584px;
 
+}
+
+/* About */
+.about{
+    border-radius:10px;
+    margin-top: 128px;
+    margin-bottom:128px ;
+    padding: 128px 160px;
+    text-align: center;
+
+
+}
+
+
+.section-title {
+    font-family: Open Sans;
+    font-size: 40px;
+
+}
+
+.section-description {
+    font-family: Open Sans;
+    font-size: 18px;
+
+}
+
+.item-title{
+    font-size: 18px;
+    
+}
+.item-description{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+  
 }
