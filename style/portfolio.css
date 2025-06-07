@@ -36,6 +36,10 @@
 
 }
 
+.text-center{
+    text-align: center;
+}
+
 
 
 /* Nav Styles */
@@ -109,6 +113,13 @@ nav ul {
 }
 
 /* About */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
 .about {
     border-radius: 10px;
     margin-top: 128px;
@@ -116,6 +127,7 @@ nav ul {
     padding: 128px 160px;
     text-align: center;
     background-color: #fff8f3;
+    
 
 
 }
@@ -147,4 +159,19 @@ nav ul {
     display: flex;
     justify-content: space-around;
 
+}
+
+
+/* Sills section styles */
+
+.skills-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.skill{
+    padding: 32px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
