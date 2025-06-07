@@ -4,7 +4,7 @@
 
     font-style: normal;
     font-variation-settings:
-        "wdth" 100;
+        "width" 100;
 }
 
 /* Shared style */
@@ -35,12 +35,6 @@
 
 
 }
-
-.bg{
-   background-color: #FFF8F3;
-opacity: 1;
-}
-
 
 
 
@@ -115,12 +109,13 @@ nav ul {
 }
 
 /* About */
-.about{
-    border-radius:10px;
+.about {
+    border-radius: 10px;
     margin-top: 128px;
-    margin-bottom:128px ;
+    margin-bottom: 128px;
     padding: 128px 160px;
     text-align: center;
+    background-color: #fff8f3;
 
 
 }
@@ -138,17 +133,18 @@ nav ul {
 
 }
 
-.item-title{
+.item-title {
     font-size: 18px;
-    
+
 }
-.item-description{
+
+.item-description {
     font-size: 18px;
     font-weight: bold;
 }
 
-.about-items{
+.about-items {
     display: flex;
     justify-content: space-around;
-  
+
 }
