@@ -40,6 +40,26 @@
     text-align: center;
 }
 
+.bold-36{
+    font-size: 36px;
+    font-weight: bold;
+}
+.bold-32{
+    font-size: 32px;
+    font-weight: bold;
+}
+.bold-24{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+.semi-20{
+    font-size: 20px;
+    font-weight: 500;
+}
+.bg{
+    background-color:#fff8f3;
+}
 
 
 /* Nav Styles */
@@ -174,4 +194,48 @@ main{
     padding: 32px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* resume section styles */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+
+}
+
+.download-cv-btn{
+    margin-top: 48px;
+}
+
+main section{
+    margin-bottom: 128px;
+
+}
+
+/* footer styles */
+footer{
+    display: flex;
+    padding: 128px 224px;
+    gap: 112px;
+
+}
+
+.footer-column{
+    width: 50%;
+}
+
+
+footer input[type=text], footer input[type=email], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    padding:16 352 16 32;
+    display: block;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+
+    
 }
